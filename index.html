@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Validation Form</h1>
+            <div class="input-box">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <div class="error-message"></div>
+            </div>
+            <div class="input-box">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <div class="error-message"></div>
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <div class="error-message"></div>
+            </div>
+            <div class="input-box">
+                <label for="retype-password">Retype Password</label>
+                <input type="password" name="retype-password" id="retype-password">
+                <div class="error-message"></div>
+            </div>
+            <button class="send" type="submit">Sign In</button>
+        </form>
+    </div>
+    
+</body>
+</html>
